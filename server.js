@@ -34,8 +34,10 @@ app.use(
 );
 
 var Logs = require("./routes/LogRoutes");
+var Users = require("./routes/Users");
 
 app.use("/logs", Logs);
+app.use("/users", Users);
 
 // serve static assets if in production
 if (process.env.NODE_ENV === "production") {
