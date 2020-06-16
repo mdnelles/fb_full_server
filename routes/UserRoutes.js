@@ -1,7 +1,6 @@
 const express = require("express"),
    logs = express.Router(),
    cors = require("cors"),
-   Log = require("../models/Logs"),
    Logfn = require("../components/Logger"),
    rf = require("./RoutFuctions");
 
